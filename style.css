@@ -170,9 +170,14 @@ h4 {
 		font-size: 1.6em;
 	}
 
+	.navbar-brand {
+		padding-right: 0px;
+		margin-right: 0px;
+	}
+
 	#logo {
-		height: 50%;
-		width: 50%;
+		height: 30%;
+		width: 30%;
 	}
 
 	#processBtn {
