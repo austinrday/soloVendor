@@ -185,6 +185,14 @@ h4 {
 		padding-left: 0px;
 		padding-right: 0px;
 	}
+
+	.navbar-toggler {
+		text-align: right;
+	}
+
+	#navCollapse {
+		display: inline;
+	}
 }
 
 /*--- Fixed Background Image --*/
