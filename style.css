@@ -5,11 +5,14 @@ body {
 	height: 100%;
 	width: 100%;
 	font-family: 'Poppins', sans-serif;
-	color: #222;
+	color: #d5d5d5;
+	background-color: #3f3f3f;
 }
 
 .navbar {
 	padding: .8em;
+	background-color: #3f3f3f;
+	opacity: .8;
 }
 
 .navbar-nav li {
@@ -49,17 +52,20 @@ body {
 }
 
 .btn-primary {
-	background-color: #1c88ec;
-	border: 1px solid #1c88ec;
+	background-color: #00396e;
+	border: 1px solid #00396e;
 }
 .btn-primary:hover {
-	background-color: #1c88ec;
-	border: 1px solid #1c88ec;
+	background-color: #00396e;
+	border: 1px solid #00396e;
 }
 
 .jumbotron {
 	padding: 1em;
 	border-radius: 0;
+	background-color: #3f3f3f;
+	color: #d5d5d5;
+	border: #d5d5d5;
 }
 
 .padding {
@@ -84,6 +90,17 @@ body {
 	color: #7e8e9c;
 	font-size: 4em;
 	margin: 1em;
+}
+
+.card {
+	background-color: #3f3f3f;
+	border: #d5d5d5;
+}
+
+input[type='text'],
+#inputMessage {
+	background-color: #d5d5d5;
+	border-color: #3f3f3f;
 }
 
 #inputFirstName {
@@ -117,6 +134,10 @@ h4 {
 	text-align: center;
 	padding: 2em;
 	margin: 2em;
+}
+
+hr {
+	background-color: #d5d5d5;
 }
 
 /*---Media Queries --*/
