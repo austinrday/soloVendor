@@ -48,10 +48,10 @@
 <div id="carouselIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
       <div class="carousel-item active">
         <img class="d-block w-100 img-fluid" src="img/basketball.png" alt="First slide">
-        <div class="carousel-caption">
-            <h1 class="display-2 text-lowercase">solo</h1>
-            <h3 class="display-3 mb-0 pb-0">Spectator's Online Ordering</h3>
-            <h5 class="display-6">The New Fan Experience</h5>
+        <div class="carousel-caption mt-5">
+            <h1 class="display-2 text-lowercase mt-2">solo</h1>
+            <h3 class="display-3 mt-3">Spectator's Online Ordering</h3>
+            <h5 class="display-6 mb-3">The New Fan Experience</h5>
             <button type="button" id="btnToVendors" class="btn btn-outline-light btn-lg">View Product</button>
             <button type="button" id="btnToContact" class="btn btn-primary btn-lg">Partner with Us</button>
         </div>
@@ -67,7 +67,7 @@
                 We understand the importance of customer needs and we've got data to prove it.</p>
         </div>
         <div class="col-sm-12 col-md-3 col-xl-2">
-            <a href="#opportunity"><button type="button" class="btn btn-outline-secondary btn-lg">See Data</button></a>
+            <a href="#opportunity"><button type="button" class="btn btn-outline-secondary btn-lg" id="seeData">See Data</button></a>
         </div>
     </div>
 </div>
@@ -82,7 +82,7 @@
         <div class="col-12">
             <p class="lead">
                 Never miss a beat! 
-                With live entertainment chaning and customer habits evolving, you need a service that will cater to customer needs. 
+                With live entertainment changing and customer habits evolving, you need a service that will cater to customer needs. 
                 Solo Vendor provides your fans the experience they deserve.
             </p>
         </div>
@@ -94,13 +94,13 @@
         <div class="col-xs-12 col-sm-6 col-md-4">
             <i class="fas fa-mobile-alt"></i>
             <h3>ON DEMAND</h3>
-            <p>Fast and easy seat ordering service right from your phone.</p>
+            <p>A fast and efficient in seat ordering service at the touch of your fingers.</p>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4">
             <i class="fas fa-utensils"></i>
             <h3>EFFICIENT</h3>
             <p>Vendors have the capability of delivering F&B items from main concessions and items they have on hand. 
-                Nothing is out of reach from the Fan.</p>
+                Nothing is out of reach for the fan.</p>
         </div>
         <div class="col-sm-12 col-md-4">
             <i class="fas fa-credit-card"></i>
@@ -108,30 +108,39 @@
             <p>All app transactions are secure, encrypted and PCI-compliant.</p>
         </div>
     </div>
+    <hr>
+</div>
+
+<!--- Welcome Section -->
+<div class="container-fluid padding">
+    <div class="row welcome text-center">
+        <div class="col-12">
+            <h1 class="display-4">The Logistics</h1>
+        </div>
+        <hr class="mb-5">
+</div>
+<!--- Three Column Section -->
+<div class="container-fluid padding">
+    <div class="row text-center padding">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <img src="img/logistics1.png" class="img-fluid rounded mb-3">
+            <p>Our quick and simple three step process allows fans to make frequent orders, 
+                resulting in more revenue for your venue.</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <img src="img/logistics2.png" class="img-fluid rounded mb-3">
+            <p>The streamlined process allows for fans to order food and beverage, directly from their seat. 
+                Now spectators never have to leave their seat for a cold beer or snack. We are committed to changing the game.</p>
+        </div>
+        <div class="col-sm-12 col-md-4">
+            <img src="img/logistics3.png" class="img-fluid rounded mb-3">
+            <p>Improve the overall fan experience at your venue by increasing vendor 
+                and concessions profitability and allowing fans to spend more time enjoying the event.</p>
+        </div>
+    </div>
     <hr class="my-4">
 </div>
 
-<!--- Two Column Section -->
-<div class="container-fluid padding">
-    <div class="row padding">
-        <div class="col-lg-6">
-            <h2 class="my-4">The Logistics</h2>
-            <p class="my-4">Our quick and simple three step process allows fans to make frequent orders, 
-                resulting in more revenue for your venue.</p>
-            <p class="my-4">The streamlined process allows for fans to order food and beverage, directly from their seat. 
-                Now spectators never have to leave their seat for a cold beer or snack. We are committed to changing the game.</p>
-            <p class="my-4">Improve the overall fan experience at your venue by increasing vendor 
-                and concessions profitability and allowing fans to spend more time enjoying the event.</p>
-            <br>
-            <a href="#contactUs" id="processBtn" class="btn btn-primary">Learn More</a>
-        </div>
-        <div class="col-lg-6">
-            <img src="img/theprocess.png" class="img-fluid">
-        </div>
-    </div>
-</div>
-
-<hr class="my-4">
 <!--- Fixed background -->
 <figure>
     <div class="fixed-wrap" id="vendors">
@@ -161,7 +170,7 @@
                         Fulfill orders as they come into the queue, while tracking the status of deliveries in real time. 
                         Increase transactions and speed of service by providing the team the tools to consistently generate better results. 
                     </p>
-                    <a href="#contactUs" class="btn btn-outline-secondary">Learn More</a>
+                    <a href="#contactUs" class="btn btn-outline-secondary learnMore">Learn More</a>
                 </div>
             </div>
         </div>
@@ -175,7 +184,7 @@
                         and cashing out immediately after events. 
                         Use the data to understand your fan's needs and determine trends in data. 
                     </p>
-                    <a href="#contactUs" class="btn btn-outline-secondary">Learn More</a>
+                    <a href="#contactUs" class="btn btn-outline-secondary learnMore">Learn More</a>
                 </div>
             </div>
         </div>
@@ -245,7 +254,7 @@
     <div class="container-fluid padding">
         <div class="row text-center">
             <div class="col-md-6">
-                <img src="img/logo.png">
+                <img src="img/logo.png" class="align-baseline mb-2">
                 <hr class="light">
                 <p>812-552-4040</p>
                 <p>info@solovendor.com</p>
