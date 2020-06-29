@@ -32,18 +32,18 @@ body {
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
+	text-shadow: 10px 10px 30px #000;
 }
 
 .carousel-caption h1 {
 	font-size: 5em;
 	text-transform: uppercase;
-	text-shadow: 1px 1px 15px #000;
 }
 
 .carousel-caption h3 {
 	font-size: 2em;
 	font-weight: 500;
-	text-shadow: 1px 1px 10px #000;
+
 	padding-bottom: 1em;
 }
 
@@ -54,15 +54,15 @@ body {
 .btn-primary,
 #seeData,
 .learnMore {
-	background-color: #00396e;
-	border: 1px solid #00396e;
-	color: #d5d5d5;
+	background-color: #2f9bff;
+	border: 1px solid #2f9bff;
+	color: #000;
 }
 .btn-primary:hover,
 #seeData:hover,
 .learnMore:hover {
-	background-color: #00396e;
-	border: 1px solid #00396e;
+	background-color: #2f9bff;
+	border: 1px solid #2f9bff;
 }
 
 .jumbotron {
@@ -92,9 +92,9 @@ body {
 .fa-mobile-alt,
 .fa-utensils,
 .fa-credit-card {
-	color: #d5d5d5;
 	font-size: 4em;
 	margin: 1em;
+	color: #3ac199;
 }
 
 .card {
@@ -153,6 +153,7 @@ hr {
 
 	.carousel-caption h1 {
 		font-size: 3.5em;
+		margin-top: 8px;
 	}
 
 	.carousel-caption h3 {
@@ -176,7 +177,8 @@ hr {
 	}
 
 	.carousel-caption {
-		top: 40%;
+		vertical-align: top;
+		margin-top: 0px;
 	}
 
 	.carousel-caption h1 {
@@ -194,10 +196,6 @@ hr {
 	.carousel-caption .btn {
 		font-size: .90em;
 		padding: 4px 8x;
-	}
-
-	.carousel-indicators {
-		display: none;
 	}
 
 	.display-4 {
